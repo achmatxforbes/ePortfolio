@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+.NavContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    font-family: 'Bakbak One', cursive;
+    
+    
+}
+
+.NavLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navs {
+    padding: 0px 30px 0px 0px;
+    transition: 4s smooth;
+}
+
+#navs:hover{
+    transform: translateY(-15px);
+    transition: 4s smooth;
+}
+
+.Logo {
+    padding: 0px 0px 0px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: black !important;
+    text-decoration: none;
+
+}
